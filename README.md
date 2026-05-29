@@ -163,6 +163,4 @@ xhs-visual-director-skill/skill/agents/openai.yaml
 
 ## Star History
 
-如果你把本项目发布到 GitHub，请把下面链接中的 `YOUR_GITHUB_USERNAME/xhs-visual-director-skill` 替换成真实仓库名。
-
-[![Star History Chart](https://api.star-history.com/svg?repos=YOUR_GITHUB_USERNAME/xhs-visual-director-skill&type=Date)](https://www.star-history.com/#YOUR_GITHUB_USERNAME/xhs-visual-director-skill&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=ziguishian/xhs-visual-director-skill&type=Date)](https://www.star-history.com/#ziguishian/xhs-visual-director-skill&Date)
