@@ -1,8 +1,8 @@
 # Redbook Director Skill｜Xiaohongshu / RedNote Carousel Generator
 
-英文名：Redbook Director Skill / XHS Visual Director
+英文名：Redbook Director Skill
 
-[![Skill](https://img.shields.io/badge/Codex%20Skill-Redbook%20Director-111827?style=for-the-badge)](#)
+[![Skill](https://img.shields.io/badge/Agent%20Skill-Redbook%20Director-111827?style=for-the-badge)](#)
 [![Language](https://img.shields.io/badge/Language-中文-ef4444?style=for-the-badge)](#)
 [![Platform](https://img.shields.io/badge/Platform-Xiaohongshu%20%2F%20RedNote-ef4444?style=for-the-badge)](#)
 [![Canvas](https://img.shields.io/badge/Canvas-3%3A4%20Carousel-22c55e?style=for-the-badge)](#)
@@ -13,11 +13,11 @@
   <img src="./assets/covers/github-social-preview.png" alt="Redbook Director Skill - Xiaohongshu / RedNote carousel generator" width="100%" />
 </p>
 
-Redbook Director Skill is a Xiaohongshu / RedNote carousel generator and Codex Agent Skill for planning high-quality social media carousels. It turns a topic, draft, screenshot, product idea, or reference style into a visual direction report, page-by-page carousel structure, image-generation prompts, captions, hashtags, and a review checklist.
+Redbook Director Skill is a platform-agnostic Agent Skill for Xiaohongshu / RedNote carousel generation, visual direction, AI image prompts, and RED book content workflows. It works with compatible agent clients such as Cursor, Claude, Codex, and other local or cloud AI coding assistants.
 
-Redbook Director Skill 是一个用于规划小红书 / Xiaohongshu / RedNote 图文轮播的 Codex Agent Skill。它不是普通文案助手，而是一个“视觉导演”：先判断内容任务，再选择适合的视觉风格，最后输出完整图文结构、逐页视觉方案、AI image prompts、发布文案和自检清单。
+Redbook Director Skill 是一个用于规划小红书 / Xiaohongshu / RedNote 图文轮播的通用 Agent Skill，可用于 Cursor、Claude、Codex 以及其他兼容 Agent 客户端。它不是普通文案助手，而是一个“视觉导演”：先判断内容任务，再选择适合的视觉风格，最后输出完整图文结构、逐页视觉方案、AI image prompts、发布文案和自检清单。
 
-Keywords: Xiaohongshu carousel generator, RedNote carousel generator, Xiaohongshu content generator, RedNote content creation, RED book visual design, Xiaohongshu post template, RedNote carousel prompts, AI image prompts, Codex Skill, Agent Skill, 小红书图文, 小红书封面, 小红书运营, 内容创作工作流。
+Keywords: Xiaohongshu carousel generator, RedNote carousel generator, Xiaohongshu content generator, RedNote content creation, RED book visual design, Xiaohongshu post template, RedNote carousel prompts, AI image prompts, Agent Skill, Cursor skill, Claude skill, 小红书图文, 小红书封面, 小红书运营, 内容创作工作流。
 
 ## 快速安装
 
@@ -106,7 +106,7 @@ Typical outputs:
 
 ## 使用方式
 
-把本目录作为 Codex Skill 安装或引用后，向 Agent 输入选题、草稿、截图描述、产品图需求、参考风格或排版优化需求。Agent 会默认输出：
+把本目录作为 Agent Skill 安装或引用后，向 Agent 输入选题、草稿、截图描述、产品图需求、参考风格或排版优化需求。Agent 会默认输出：
 
 1. 选题判断
 2. 核心观点

@@ -22,7 +22,7 @@
 ## 文件职责
 
 - `SKILL.md`：Agent 的触发场景、工作流、默认输出格式、审查规则。
-- `agents/openai.yaml`：Codex UI 元数据；当 Skill 名称、定位或默认使用方式变化时同步更新。
+- `agents/openai.yaml`：Agent 客户端展示元数据；当 Skill 名称、定位或默认使用方式变化时同步更新。
 - `references/style_system.md`：风格库索引、风格组合规则、内容类型到风格的映射表。
 - `references/style-XX-*.md`：单个风格的完整定义、适用范围、版式结构、图像提示词模板和负面提示词。
 - `references/page_structure_rules.md`：封面、内页、结尾页的页面结构规则。
