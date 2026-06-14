@@ -14,9 +14,9 @@
   <img src="./assets/covers/github-social-preview.png" alt="Redbook Director Skill - 小红书 / RedNote 图文轮播生成器" width="100%" />
 </p>
 
-Redbook Director Skill 是一个用于规划小红书 / Xiaohongshu / RedNote 图文轮播的通用 Agent Skill，可用于 Cursor、Claude、Codex 以及其他兼容 Agent 客户端。它不是普通文案助手，而是一个「视觉导演」：先判断内容任务，再选择适合的视觉风格，最后输出完整图文结构、逐页视觉方案、AI image prompts、发布文案和自检清单。
+面向**小红书 / RedNote 创作者**的 Agent Skill：把选题、草稿、截图或参考图，规划成可直接落地的高级图文轮播。它不是泛泛的文案助手，而是「视觉导演」——先判断内容类型与传播目标，再匹配视觉风格，最后输出页面结构、逐页构图、AI 生图提示词、标题正文标签和自检清单。支持 Cursor、Claude、Codex 等兼容 Agent 客户端。
 
-Keywords: Xiaohongshu carousel generator, RedNote carousel generator, Xiaohongshu content generator, RedNote content creation, RED book visual design, Xiaohongshu post template, RedNote carousel prompts, AI image prompts, Agent Skill, Cursor skill, Claude skill, 小红书图文, 小红书封面, 小红书运营, 内容创作工作流。
+**关键词**：小红书图文、小红书封面、小红书运营、图文排版、轮播图设计、3:4 竖版封面、AI 生图提示词、内容创作工作流、视觉风格、爆款封面、收藏型内页、Cursor Skill、Claude Skill、Vibe Coding 图文
 
 ## 快速安装
 
