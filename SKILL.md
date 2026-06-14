@@ -1,5 +1,5 @@
 ---
-name: xhs-visual-director
+name: redbook-director-skill
 description: Use this skill when planning, redesigning, or reviewing Xiaohongshu carousel visuals, covers, 3:4 image posts, page-by-page visual direction, image-generation prompts, style selection, layout critique, or XHS captions. It acts as a senior visual director for 小红书图文, not a generic copywriting assistant.
 ---
 
@@ -30,13 +30,15 @@ description: Use this skill when planning, redesigning, or reviewing Xiaohongshu
 
 ## 使用资源
 
+本 Skill 以仓库根目录作为可安装 Skill 目录。安装或复制时必须保留 `SKILL.md` 同级的 `references/`、`assets/` 和 `examples/` 目录，否则下面的资源引用会失效。
+
 按任务需要读取项目内资源，不要一次性加载全部文档：
 
-- 需要选择风格或解释风格依据时，读取 `docs/style_system.md`。
-- 需要规划封面、内页、结尾页结构时，读取 `docs/page_structure_rules.md`。
-- 需要生成图像提示词时，读取 `templates/image_prompt_template.md` 和 `docs/prompt_rules.md`。
-- 需要审查页面高级感和可读性时，读取 `templates/visual_review_checklist.md` 和 `docs/anti_patterns.md`。
-- 需要快速套用完整输出格式时，读取 `templates/xhs_carousel_plan_template.md`。
+- 需要选择风格或解释风格依据时，读取 `references/style_system.md`。
+- 需要规划封面、内页、结尾页结构时，读取 `references/page_structure_rules.md`。
+- 需要生成图像提示词时，读取 `assets/image_prompt_template.md` 和 `references/prompt_rules.md`。
+- 需要审查页面高级感和可读性时，读取 `assets/visual_review_checklist.md` 和 `references/anti_patterns.md`。
+- 需要快速套用完整输出格式时，读取 `assets/xhs_carousel_plan_template.md`。
 - 需要参考真实案例时，优先读取 `examples/style_reference_notes.md`，再按主题读取其他 examples。
 
 如果用户只问一个很小的问题，例如“这页排版怎么优化”，不必输出完整 8 页规划；但仍要先用简短方式判断内容任务和适合风格。
@@ -134,7 +136,7 @@ description: Use this skill when planning, redesigning, or reviewing Xiaohongshu
 4. 判断信息密度：低、中、高、极高。
 5. 从风格库选择主风格和辅助风格，并说明不建议使用的风格。
 
-参考风格库见 `docs/style_system.md`。
+参考风格库见 `references/style_system.md`。
 
 ### 风格组合规则
 

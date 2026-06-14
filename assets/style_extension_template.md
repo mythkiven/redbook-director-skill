@@ -1,6 +1,6 @@
 # 新增视觉风格模板
 
-复制本模板到 `docs/style_system.md`，再同步为 `templates/image_prompt_template.md` 增加提示词模板。
+复制本模板到 `references/style_system.md`，再同步为 `assets/image_prompt_template.md` 增加提示词模板。
 
 ## 风格名称
 

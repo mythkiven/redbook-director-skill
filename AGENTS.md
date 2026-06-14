@@ -4,7 +4,7 @@
 
 ## 维护原则
 
-- 修改这个 Skill 时，优先维护 `skill/SKILL.md`。
+- 修改这个 Skill 时，优先维护根目录 `SKILL.md`。
 - 所有规则必须服务于“小红书高级图文视觉导演”这个定位。
 - 不要把 Skill 写成泛泛的写作助手。
 - 不要输出空泛审美词，例如只写“高级、科技、极简、好看”。
@@ -14,20 +14,20 @@
 - 文件结构必须清晰，新增内容要放到对应目录。
 - `README.md` 要告诉用户如何使用这个 Skill，而不是只介绍概念。
 - 风格库必须可扩展。
-- 新增风格时必须同时更新 `docs/style_system.md` 和 `templates/image_prompt_template.md`。
+- 新增风格时必须同时更新 `references/style_system.md` 和 `assets/image_prompt_template.md`。
 - 任何输出都必须先判断内容，再选择风格。
 - 不要默认套黑色科技风。
 - 不要把可读的风格判断报告写成隐藏思考链。
 
 ## 文件职责
 
-- `skill/SKILL.md`：Agent 的触发场景、工作流、默认输出格式、审查规则。
-- `skill/agents/openai.yaml`：Codex UI 元数据；当 Skill 名称、定位或默认使用方式变化时同步更新。
-- `docs/style_system.md`：风格库、风格组合规则、内容类型到风格的映射表。
-- `docs/page_structure_rules.md`：封面、内页、结尾页的页面结构规则。
-- `docs/prompt_rules.md`：图像生成提示词写法、负面提示词规则、文字区域规划。
-- `docs/anti_patterns.md`：用户不喜欢的风格和避免方法。
-- `templates/`：可复用输出模板。
+- `SKILL.md`：Agent 的触发场景、工作流、默认输出格式、审查规则。
+- `agents/openai.yaml`：Codex UI 元数据；当 Skill 名称、定位或默认使用方式变化时同步更新。
+- `references/style_system.md`：风格库、风格组合规则、内容类型到风格的映射表。
+- `references/page_structure_rules.md`：封面、内页、结尾页的页面结构规则。
+- `references/prompt_rules.md`：图像生成提示词写法、负面提示词规则、文字区域规划。
+- `references/anti_patterns.md`：用户不喜欢的风格和避免方法。
+- `assets/`：可复用输出模板。
 - `examples/`：可复用案例，新增案例必须具体、完整、可模仿。
 
 ## 输出底线
@@ -47,10 +47,10 @@
 
 ## 新增风格要求
 
-新增风格时，先使用 `templates/style_extension_template.md` 填完整，再同步更新：
+新增风格时，先使用 `assets/style_extension_template.md` 填完整，再同步更新：
 
-- `docs/style_system.md`
-- `templates/image_prompt_template.md`
+- `references/style_system.md`
+- `assets/image_prompt_template.md`
 - `examples/style_reference_notes.md`
 
 如果新增风格面向一个明确行业，例如外贸、电商、教育、咨询、文旅，至少补一个行业主题案例到 `examples/`。

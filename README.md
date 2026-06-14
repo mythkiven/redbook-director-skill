@@ -79,14 +79,20 @@
 
 ## 安装建议
 
-可安装的 Skill 主体在 `skill/` 目录中：
+本仓库已按标准 Skill 目录组织：仓库根目录就是可安装 Skill 目录，根目录直接包含 `SKILL.md`。
 
 ```text
-xhs-visual-director-skill/skill/SKILL.md
-xhs-visual-director-skill/skill/agents/openai.yaml
+redbook-director-skill/
+├── SKILL.md
+├── agents/openai.yaml
+├── references/
+├── examples/
+└── assets/
+    ├── *.md
+    └── covers/
 ```
 
-如果你的 Codex Skill 管理方式要求一个目录内直接包含 `SKILL.md`，请把 `xhs-visual-director-skill/skill/` 作为 Skill 目录使用；项目根目录的 `docs/`、`templates/`、`examples/` 是维护和扩展资料。
+安装时请复制或软链接整个 `redbook-director-skill/` 目录，不要只复制 `SKILL.md`。`references/`、`assets/` 和 `examples/` 是 Skill 运行时按需读取的配套资源。
 
 ## 输入示例
 
@@ -116,7 +122,7 @@ xhs-visual-director-skill/skill/agents/openai.yaml
 3. 从三套风格方案里选择一个方向。
 4. 生成 8 页结构和逐页提示词。
 5. 用提示词生成图片。
-6. 根据 `templates/visual_review_checklist.md` 审查可读性和高级感。
+6. 根据 `assets/visual_review_checklist.md` 审查可读性和高级感。
 7. 最后生成标题、正文、标签和置顶评论。
 
 ## 如何加入参考图
@@ -150,9 +156,9 @@ xhs-visual-director-skill/skill/agents/openai.yaml
 
 同时更新：
 
-- `docs/style_system.md`
-- `templates/image_prompt_template.md`
-- `templates/style_extension_template.md` 可作为新增风格的填写模板。
+- `references/style_system.md`
+- `assets/image_prompt_template.md`
+- `assets/style_extension_template.md` 可作为新增风格的填写模板。
 - 必要时增加 `examples/style_reference_notes.md`
 
 ## 如何维护 examples
@@ -178,7 +184,3 @@ xhs-visual-director-skill/skill/agents/openai.yaml
 - 每页只承担一个主要传播任务。
 - 提示词包含画幅、布局、文字区域、字体、配色、主视觉、留白和禁止项。
 - 避免廉价 AI 科技风、PPT 感、信息过载和文字不可读。
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=ziguishian/xhs-visual-director-skill&type=Date)](https://www.star-history.com/#ziguishian/xhs-visual-director-skill&Date)
