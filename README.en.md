@@ -14,11 +14,9 @@
   <img src="./assets/covers/github-social-preview.png" alt="Redbook Director Skill - Xiaohongshu / RedNote carousel generator" width="100%" />
 </p>
 
-Redbook Director Skill is a platform-agnostic Agent Skill for Xiaohongshu / RedNote carousel generation, visual direction, AI image prompts, and RED book content workflows. It works with compatible agent clients such as Cursor, Claude, Codex, and other local or cloud AI coding assistants.
+Redbook Director Skill is a platform-agnostic Agent Skill for **Xiaohongshu / RedNote creators** (primarily Chinese-speaking audiences). It turns topics, drafts, screenshots, or reference images into publish-ready premium carousel posts—not generic copy, but full visual direction: content judgment, style selection, page structure, per-page layout, AI image prompts, captions, hashtags, and a self-review checklist. Works with Cursor, Claude, Codex, and other compatible agent clients.
 
-It is not a generic copywriting assistant. It acts as a **visual director**: judge the content task first, pick a fitting visual style, then deliver the full carousel structure, per-page visual plans, AI image prompts, publishing copy, and a self-review checklist.
-
-Keywords: Xiaohongshu carousel generator, RedNote carousel generator, Xiaohongshu content generator, RedNote content creation, RED book visual design, Xiaohongshu post template, RedNote carousel prompts, AI image prompts, Agent Skill, Cursor skill, Claude skill, 小红书图文, 小红书封面, 小红书运营, 内容创作工作流.
+**Keywords**: Xiaohongshu carousel generator, RedNote carousel generator, Xiaohongshu content generator, Xiaohongshu post template, Xiaohongshu cover design, AI image prompts, 小红书图文, 小红书封面, 小红书运营, Agent Skill, Cursor skill, Claude skill, 3:4 carousel, visual director workflow.
 
 ## Quick Install
 
