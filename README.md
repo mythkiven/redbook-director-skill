@@ -1,7 +1,5 @@
 # Redbook Director Skill｜Xiaohongshu / RedNote Carousel Generator
 
-英文名：Redbook Director Skill
-
 [![Skill](https://img.shields.io/badge/Agent%20Skill-Redbook%20Director-111827?style=for-the-badge)](#)
 [![Language](https://img.shields.io/badge/Language-中文-ef4444?style=for-the-badge)](#)
 [![Platform](https://img.shields.io/badge/Platform-Xiaohongshu%20%2F%20RedNote-ef4444?style=for-the-badge)](#)
